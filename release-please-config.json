@@ -1,0 +1,10 @@
+{
+  "separate-pull-requests": true,
+  "sequential-calls": true,
+  "packages": {
+    "hobbies": { "release-type": "node" },
+    "events": { "release-type": "node" },
+    "sports": { "release-type": "node" }
+  },
+  "plugins": ["sentence-case"]
+}
