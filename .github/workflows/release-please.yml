@@ -10,5 +10,7 @@ jobs:
     steps:
       - name: Install release-please client
         run: npm i release-please -g
+      - name: Create release pr
+        run: release-please release-pr --token=${{ secrets.TOKEN }} --repo-url=terovirtanen/test-release-please-action
       - name: Create github release
         run: release-please github-release --token=${{ secrets.TOKEN }} --repo-url=terovirtanen/test-release-please-action
