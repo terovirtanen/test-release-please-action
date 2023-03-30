@@ -1,9 +1,8 @@
 {
   "name": "hobbies",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "react": "^18.2.0"
   },
