@@ -1,0 +1,13 @@
+{
+  "name": "hobbies",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "webpack": "5.75.0"
+  }
+}
