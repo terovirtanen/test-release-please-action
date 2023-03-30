@@ -8,6 +8,15 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
+#       - uses: google-github-actions/release-please-action@v3
+#         with:
+#           token: ${{ secrets.TOKEN }}
+# #          command: manifest
+#           # config-file: release-please-config.json
+#           # manifest-file: .release-please-manifest.json
+#           release-type: node
+#           monorepo-tags: true
+
       - uses: google-github-actions/release-please-action@v3
         with:
           token: ${{ secrets.TOKEN }}
@@ -15,4 +24,5 @@ jobs:
           # config-file: release-please-config.json
           # manifest-file: .release-please-manifest.json
           release-type: node
+          path: hobbies
           monorepo-tags: true
