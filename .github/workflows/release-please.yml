@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       prlabel:
-        description: 'PR label value, force update for release-please PR'
+        description: 'PR label, force update for release-please PR'
         required: false
         type: string
 jobs:
@@ -23,7 +23,7 @@ jobs:
         run: |
           if [ -n "${{ github.event.release.tag_name }}" ]; then
             LABEL="--label ${{ github.event.release.tag_name }}"
-          else if [ -n "${{ inputs.prlabel }}" ]; then
+          elif [ -n "${{ inputs.prlabel }}" ]; then
             LABEL="--label ${{ inputs.prlabel }}"
           fi
           echo $LABEL
