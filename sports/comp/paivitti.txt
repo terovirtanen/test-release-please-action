@@ -1,0 +1,213 @@
+❯ Fetching release-please-config.json from branch main
+❯ Fetching .release-please-manifest.json from branch main
+✔ Building pull requests
+✔ Building strategies by path
+❯ hobbies: node
+❯ events: node
+❯ sports: node
+❯ Fetching hobbies/package.json from branch main
+❯ Fetching events/package.json from branch main
+❯ Fetching sports/package.json from branch main
+✔ Collecting release commit SHAs
+❯ release search depth: 400
+❯ Fetching releases with cursor undefined
+❯ Found release for path events, events-v0.1.4
+❯ Found release for path hobbies, hobbies-v1.0.2
+⚠ Expected 3 releases, only found 2
+⚠ Missing 1 paths: sports
+❯ looking for tagName: sports-v0.1.1
+⚠ Expected 3 releases, only found 2
+❯ release for path: events, version: 0.1.4, sha: ac365e9a3800d75958d17e8278a0df931eeeb0a7
+❯ release for path: hobbies, version: 1.0.2, sha: 294d366e3067ee514fbf1e79aa634ec91dc2bf85
+✔ Collecting commits since all latest releases
+❯ commit search depth: 500
+❯ Set(2) {
+  'ac365e9a3800d75958d17e8278a0df931eeeb0a7',
+  '294d366e3067ee514fbf1e79aa634ec91dc2bf85'
+}
+❯ Fetching merge commits on branch main with cursor: undefined
+❯ Backfilling file list for commit: 04985b160884e52836b970b164221735f882a3c3
+❯ Found 1 files
+❯ Backfilling file list for commit: 22cf25e4b50045e7c1482cd6fda555ce34bd7982
+❯ Found 1 files
+❯ Backfilling file list for commit: f245616c8cd949900f3131d8c0ef6f4a2b8c93a9
+❯ Found 1 files
+❯ Backfilling file list for commit: 01f1c251faebe78865790a031840179799393a29
+❯ Found 1 files
+❯ Backfilling file list for commit: 5d679fd9bae1dbc08db7fa41ae0d893e43a79641
+❯ Found 1 files
+❯ Backfilling file list for commit: e2a500e0d07d943679de199cf1437e8e1c75eee7
+❯ Found 1 files
+❯ Backfilling file list for commit: 022daec03f654721e737a56833138d24b4cd90e1
+❯ Found 1 files
+❯ Backfilling file list for commit: 46682ced21b5472fd13c512b245f0eb7876aa98f
+❯ Found 1 files
+❯ Backfilling file list for commit: d26f85d125e7a98dad709e2a024ce66849a396b4
+❯ Found 1 files
+❯ Backfilling file list for commit: aa6768120be7dc547b3deb74d0907920a096a6d7
+❯ Found 1 files
+❯ Backfilling file list for commit: 7366f1b7b45e8e25959fde7a101af59b30c764d5
+❯ Found 1 files
+❯ Backfilling file list for commit: ca8ee6267cbaeaa8a8712b1e478a291e537e1339
+❯ Found 1 files
+❯ Backfilling file list for commit: e64b0befd107b56461fc1426e9d5369b4fd7bd38
+❯ Found 1 files
+❯ Backfilling file list for commit: 51a11e3e176646a0b4fbc88bd05655fed413cc76
+❯ Found 1 files
+❯ Backfilling file list for commit: fd45d79c30bf43bc0de987d8a721a818626ea7ce
+❯ Found 1 files
+❯ Backfilling file list for commit: 585525a6050fe3e030f5b8e883a407704b77e1ce
+❯ Found 1 files
+❯ Backfilling file list for commit: 143ac8db750c161b4337ec0ba157aa4f558878c4
+❯ Found 1 files
+❯ Backfilling file list for commit: 332fd1d59519342f838b82b3f01ce2fa956c9a07
+❯ Found 1 files
+❯ Backfilling file list for commit: c93fea812d5b09ddd8fa7e1d5e7eca6cf9d6a077
+❯ Found 1 files
+❯ Backfilling file list for commit: 3eb88b0e47c22b625086251ae95b0edf82e98c76
+❯ Found 1 files
+❯ Fetching merge commits on branch main with cursor: 04985b160884e52836b970b164221735f882a3c3 24
+❯ Backfilling file list for commit: 264ad5c510ccd97386e980e0fcb4d8e112dddea4
+❯ Found 1 files
+❯ Backfilling file list for commit: 91e919d68010aa6f401eca56748834c97db61a90
+❯ Found 1 files
+❯ Backfilling file list for commit: 50f14efbaf4175f1ff96c4a2784a6bac611fe524
+❯ Found 1 files
+❯ Backfilling file list for commit: f484fccc26dd83a69331eca40b5f6e90eb57ad63
+❯ Found 1 files
+❯ Backfilling file list for commit: 7c7d37e43af630d98c072f987c8723b2f5311c3d
+❯ Found 3 files
+❯ Backfilling file list for commit: a5cecc4a13cb806c64f390dd975d14586f277dce
+❯ Found 3 files
+✔ Splitting 33 commits by path
+✔ No latest release found for path: sports, component: sports, but a previous version (0.1.1) was specified in the manifest.
+✔ Building candidate release pull request for path: hobbies
+❯ type: node
+❯ targetBranch: main
+✔ SentenceCase processing 4 commits
+hobbies
+hobbies
+hobbies
+hobbies
+❯ commits: 4
+✔ Considering: 4 commits
+❯ component: hobbies
+❯ pull request title pattern: undefined
+✔ Building candidate release pull request for path: events
+❯ type: node
+❯ targetBranch: main
+✔ SentenceCase processing 0 commits
+❯ commits: 0
+✔ Considering: 0 commits
+✔ No commits for path: events, skipping
+✔ Building candidate release pull request for path: sports
+❯ type: node
+❯ targetBranch: main
+❯ commit could not be parsed: 332fd1d59519342f838b82b3f01ce2fa956c9a07 sports txt
+❯ commit could not be parsed: bd6ef23c448066b01df39c5f30143aa5553a2499 Merge pull request #1 from terovirtanen/test
+❯ commit could not be parsed: 7c7d37e43af630d98c072f987c8723b2f5311c3d package.jsons
+✔ SentenceCase processing 2 commits
+test
+sports txt
+❯ commits: 2
+⚠ No latest release pull request found.
+✔ Considering: 2 commits
+❯ component: sports
+❯ pull request title pattern: undefined
+❯ running plugin: SentenceCase
+✔ Looking for open release pull requests
+✔ found 2 open release pull requests.
+✔ Looking for snoozed release pull requests
+✔ found 0 snoozed release pull requests.
+❯ Fetching hobbies/package-lock.json from branch main
+⚠ file hobbies/package-lock.json did not exist
+❯ Fetching hobbies/npm-shrinkwrap.json from branch main
+⚠ file hobbies/npm-shrinkwrap.json did not exist
+❯ Fetching hobbies/samples/package.json from branch main
+⚠ file hobbies/samples/package.json did not exist
+❯ Fetching hobbies/CHANGELOG.md from branch main
+❯ Fetching hobbies/package.json from branch main
+✔ updating from 1.0.2 to 1.0.3
+❯ Fetching changelog.json from branch main
+⚠ file changelog.json did not exist
+❯ Fetching .release-please-manifest.json from branch main
+✔ Starting GitHub PR workflow...
+✔ Successfully found branch HEAD sha "04985b160884e52836b970b164221735f882a3c3".
+✔ Skipping branch creation step...
+✔ Got the latest commit tree
+✔ Successfully created a tree with the desired changes with SHA 694e26d51aa288f626abe670fd7c30ab45933560
+✔ Successfully created commit. See commit at https://api.github.com/repos/terovirtanen/test-release-please-action/git/commits/e0db56c9c898d84fdbdb0d1b555fd60ef40d1991
+✔ Updating reference heads/release-please--branches--main--components--hobbies to e0db56c9c898d84fdbdb0d1b555fd60ef40d1991
+✔ Successfully updated reference release-please--branches--main--components--hobbies to e0db56c9c898d84fdbdb0d1b555fd60ef40d1991
+✔ Found existing pull request for reference terovirtanen:release-please--branches--main--components--hobbies. Skipping creating a new pull request.
+✔ Successfully opened pull request: 9.
+❯ Fetching sports/package-lock.json from branch main
+⚠ file sports/package-lock.json did not exist
+❯ Fetching sports/npm-shrinkwrap.json from branch main
+⚠ file sports/npm-shrinkwrap.json did not exist
+❯ Fetching sports/samples/package.json from branch main
+⚠ file sports/samples/package.json did not exist
+❯ Fetching sports/CHANGELOG.md from branch main
+❯ Fetching sports/package.json from branch main
+✔ updating from 0.1.1 to 0.1.2
+❯ Fetching changelog.json from branch main
+⚠ file changelog.json did not exist
+❯ Fetching .release-please-manifest.json from branch main
+✔ Starting GitHub PR workflow...
+✔ Successfully found branch HEAD sha "04985b160884e52836b970b164221735f882a3c3".
+✔ Skipping branch creation step...
+✔ Got the latest commit tree
+✔ Successfully created a tree with the desired changes with SHA 727f9908e4754c4abe30f6b45b5744990482b1ed
+✔ Successfully created commit. See commit at https://api.github.com/repos/terovirtanen/test-release-please-action/git/commits/f3ab00b478f0524d7dc4531b851717e2c6323748
+✔ Updating reference heads/release-please--branches--main--components--sports to f3ab00b478f0524d7dc4531b851717e2c6323748
+✔ Successfully updated reference release-please--branches--main--components--sports to f3ab00b478f0524d7dc4531b851717e2c6323748
+✔ Found existing pull request for reference terovirtanen:release-please--branches--main--components--sports. Skipping creating a new pull request.
+✔ Successfully opened pull request: 5.
+[
+  {
+    headBranchName: 'release-please--branches--main--components--hobbies',
+    baseBranchName: 'main',
+    number: 9,
+    title: 'chore(main): release hobbies 1.0.3',
+    body: ':robot: I have created a release *beep* *boop*\n' +
+      '---\n' +
+      '\n' +
+      '\n' +
+      '## [1.0.3](https://github.com/terovirtanen/test-release-please-action/compare/hobbies-v1.0.2...hobbies-v1.0.3) (2023-03-31)\n' +
+      '\n' +
+      '\n' +
+      '### Bug Fixes\n' +
+      '\n' +
+      '* Hobbies ([04985b1](https://github.com/terovirtanen/test-release-please-action/commit/04985b160884e52836b970b164221735f882a3c3))\n' +
+      '* Hobbies ([f245616](https://github.com/terovirtanen/test-release-please-action/commit/f245616c8cd949900f3131d8c0ef6f4a2b8c93a9))\n' +
+      '* Hobbies ([01f1c25](https://github.com/terovirtanen/test-release-please-action/commit/01f1c251faebe78865790a031840179799393a29))\n' +
+      '* Hobbies ([e2a500e](https://github.com/terovirtanen/test-release-please-action/commit/e2a500e0d07d943679de199cf1437e8e1c75eee7))\n' +
+      '\n' +
+      '---\n' +
+      'This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).',
+    files: [],
+    labels: [ 'autorelease: pending' ]
+  },
+  {
+    headBranchName: 'release-please--branches--main--components--sports',
+    baseBranchName: 'main',
+    number: 5,
+    title: 'chore(main): release sports 0.1.2',
+    body: ':robot: I have created a release *beep* *boop*\n' +
+      '---\n' +
+      '\n' +
+      '\n' +
+      '## [0.1.2](https://github.com/terovirtanen/test-release-please-action/compare/sports-v0.1.1...sports-v0.1.2) (2023-03-31)\n' +
+      '\n' +
+      '\n' +
+      '### Bug Fixes\n' +
+      '\n' +
+      '* Sports txt ([143ac8d](https://github.com/terovirtanen/test-release-please-action/commit/143ac8db750c161b4337ec0ba157aa4f558878c4))\n' +
+      '* Test ([022daec](https://github.com/terovirtanen/test-release-please-action/commit/022daec03f654721e737a56833138d24b4cd90e1))\n' +
+      '\n' +
+      '---\n' +
+      'This PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).',
+    files: [],
+    labels: [ 'autorelease: pending' ]
+  }
+]
