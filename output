@@ -1,0 +1,8 @@
+❯ Fetching release-please-config.json from branch main
+❯ Fetching .release-please-manifest.json from branch main
+✔ Building releases
+✔ Building strategies by path
+❯ hobbies: node
+❯ events: node
+❯ sports: node
+[]

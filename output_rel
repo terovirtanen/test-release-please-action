@@ -1,0 +1,48 @@
+❯ Fetching release-please-config.json from branch main
+❯ Fetching .release-please-manifest.json from branch main
+✔ Building releases
+✔ Building strategies by path
+❯ hobbies: node
+❯ events: node
+❯ sports: node
+❯ Found pull request #11: 'chore(main): release hobbies 1.0.4'
+✔ Building release for path: hobbies
+❯ type: node
+❯ targetBranch: main
+❯ Fetching hobbies/package.json from branch main
+✔ Building release for path: events
+❯ type: node
+❯ targetBranch: main
+❯ Fetching events/package.json from branch main
+⚠ PR component: hobbies does not match configured component: events
+✔ Building release for path: sports
+❯ type: node
+❯ targetBranch: main
+❯ Fetching sports/package.json from branch main
+⚠ PR component: hobbies does not match configured component: sports
+✔ Creating 1 releases for pull #11
+❯ adding comment to https://github.com/terovirtanen/test-release-please-action/issues/11
+❯ removing labels: autorelease: pending from issue/pull 11
+❯ adding labels: autorelease: tagged from issue/pull 11
+[
+  {
+    id: 97582996,
+    name: 'hobbies: v1.0.4',
+    tagName: 'hobbies-v1.0.4',
+    sha: '1de5b4cf4d7d59bc16006183293de36202212324',
+    notes: '## [1.0.4](https://github.com/terovirtanen/test-release-please-action/compare/hobbies-v1.0.3...hobbies-v1.0.4) (2023-03-31)\n' +
+      '\n' +
+      '\n' +
+      '### Bug Fixes\n' +
+      '\n' +
+      '* Hobbies ([6fa646c](https://github.com/terovirtanen/test-release-please-action/commit/6fa646c966a0af41dc9226af0d802cf7ab492a4b))',
+    url: 'https://github.com/terovirtanen/test-release-please-action/releases/tag/hobbies-v1.0.4',
+    draft: false,
+    uploadUrl: 'https://uploads.github.com/repos/terovirtanen/test-release-please-action/releases/97582996/assets{?name,label}',
+    path: 'hobbies',
+    version: '1.0.4',
+    major: 1,
+    minor: 0,
+    patch: 4
+  }
+]
