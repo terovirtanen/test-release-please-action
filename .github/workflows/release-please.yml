@@ -18,19 +18,10 @@ jobs:
       - name: Create release pr
         run: |
           if [ -n "${{ github.event.release.tag_name }}" ]; then
-            LABEL="--label \"${{ github.event.release.tag_name }}\""
+            LABEL="--label ${{ github.event.release.tag_name }}"
             echo $LABEL
           fi
 
           release-please release-pr --token=${{ secrets.TOKEN }} --repo-url=terovirtanen/test-release-please-action $LABEL
       - name: Create github release
         run: release-please github-release --token=${{ secrets.TOKEN }} --repo-url=terovirtanen/test-release-please-action
-
-
-
-      # - name: Create github release
-      #   id: github-release
-      #   run: |
-      #     release-please github-release --token=${{ secrets.TOKEN }} --repo-url=terovirtanen/test-release-please-action | tee output
-      #     GITHUBRELEASE=$(cat output | grep tagName | sed -e "s/^.*'\(.*\)'.*$/\1/")
-      #     echo "GITHUBRELEASE=$GITHUBRELEASE" >> $GITHUB_OUTPUT
