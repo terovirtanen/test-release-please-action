@@ -21,6 +21,7 @@ jobs:
       # set extra label to ensure correct pr generation (menifest merge issue)
       - name: Create release pr
         run: |
+          printenv | sort
           if [ -n "${{ github.event.release.tag_name }}" ]; then
             LABEL="--label ${{ github.event.release.tag_name }}"
           elif [ -n "${{ inputs.prlabel }}" ]; then
@@ -28,6 +29,6 @@ jobs:
           fi
           echo $LABEL
 
-          release-please release-pr --token=${{ secrets.TOKEN }} --repo-url=${{ GITHUB_REPOSITORY }} $LABEL
+          release-please release-pr --token=${{ secrets.TOKEN }} --repo-url=$GITHUB_REPOSITORY $LABEL
       - name: Create github release
-        run: release-please github-release --token=${{ secrets.TOKEN }} --repo-url=${{ GITHUB_REPOSITORY }}
+        run: release-please github-release --token=${{ secrets.TOKEN }} --repo-url=terovirtanen/test-release-please-action
