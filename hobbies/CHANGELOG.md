@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/terovirtanen/test-release-please-action/compare/hobbies-v1.0.6...hobbies-v1.0.7) (2023-04-03)
+
+
+### Bug Fixes
+
+* Hobbies testaus ([3d82e2f](https://github.com/terovirtanen/test-release-please-action/commit/3d82e2f733cc41518aca4f7834f22a72c85d38a4))
+
 ## [1.0.6](https://github.com/terovirtanen/test-release-please-action/compare/hobbies-v1.0.5...hobbies-v1.0.6) (2023-03-31)
 
 
