@@ -8,7 +8,7 @@ on:
     types: [published]
   workflow_dispatch:
     inputs:
-      label:
+      prlabel:
         description: 'PR label, force update for release-please PR's. Do not use spaces!'
         required: false
         type: string
@@ -24,8 +24,8 @@ jobs:
           printenv | sort
           if [ -n "${{ github.event.release.tag_name }}" ]; then
             LABEL="--label ${{ github.event.release.tag_name }}"
-          elif [ -n "${{ inputs.label }}" ]; then
-            LABEL="--label ${{ inputs.label }}"
+          elif [ -n "${{ inputs.prlabel }}" ]; then
+            LABEL="--label ${{ inputs.prlabel }}"
           fi
           echo $LABEL
 
