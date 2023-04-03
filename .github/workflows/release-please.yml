@@ -28,6 +28,6 @@ jobs:
           fi
           echo $LABEL
 
-          release-please release-pr --token=${{ secrets.TOKEN }} --repo-url=terovirtanen/test-release-please-action $LABEL
+          release-please release-pr --token=${{ secrets.TOKEN }} --repo-url=${{ GITHUB_REPOSITORY }} $LABEL
       - name: Create github release
-        run: release-please github-release --token=${{ secrets.TOKEN }} --repo-url=terovirtanen/test-release-please-action
+        run: release-please github-release --token=${{ secrets.TOKEN }} --repo-url=${{ GITHUB_REPOSITORY }}
