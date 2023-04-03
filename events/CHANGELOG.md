@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/terovirtanen/test-release-please-action/compare/events-v0.1.5...events-v0.1.6) (2023-04-03)
+
+
+### Bug Fixes
+
+* Events test ([c9f15f5](https://github.com/terovirtanen/test-release-please-action/commit/c9f15f5a1930e96727035b6edc6196a06d1f8e7a))
+
 ## [0.1.5](https://github.com/terovirtanen/test-release-please-action/compare/events-v0.1.4...events-v0.1.5) (2023-03-31)
 
 
